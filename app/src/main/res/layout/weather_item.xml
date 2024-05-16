@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textObsTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obs Time:" />
+
+    <TextView
+        android:id="@+id/textTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp:" />
+
+    <TextView
+        android:id="@+id/textFeelsLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feels Like:" />
+
+    <TextView
+        android:id="@+id/textIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Icon:" />
+
+    <TextView
+        android:id="@+id/textText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text:" />
+
+    <TextView
+        android:id="@+id/textWind360"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind360:" />
+
+    <TextView
+        android:id="@+id/textWindDir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WindDir:" />
+
+</LinearLayout>
